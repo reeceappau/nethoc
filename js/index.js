@@ -1,12 +1,12 @@
 fetchAllPost()
-.then(data => {
-    console.log(data);
-    populate(data)
-})
-.catch(error => {
-    console.error('An error occured: ', error);
-    post = -1;
-})
+    .then(data => {
+        console.log(data);
+        populate(data)
+    })
+    .catch(error => {
+        console.error('An error occured: ', error);
+        post = -1;
+    })
 
 function populate(data) {
     const posts = data.items;
@@ -32,7 +32,7 @@ function populate(data) {
             </div>
           </div>
         `;
-        
+
     });
 }
 

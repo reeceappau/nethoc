@@ -15,7 +15,7 @@ fetchPostBySlug(slug)
         post = -1;
     })
 
-if (post == -1){
+if (post == -1) {
     console.log("Post not found")
 }
 
@@ -28,7 +28,7 @@ function populate(post) {
     const authorAvatarId = author.avatar.sys.id;
     const authorAvatarUrl = post.includes.Asset.find(asset => asset.sys.id === authorAvatarId).fields.file.url;
 
-    
+
     const heading = document.getElementById('title');
     heading.textContent = postFields.title;
 

@@ -1,26 +1,17 @@
-/* body {
-    margin-top: 90px;
-}
-@media (max-width: 979px) {
-    body {
-      padding-top: 0px;
-    }
-} */
-
 #content img {
     max-width: 100%;
     height: auto;
 }
 
-.nt-bg-primary{
+.nt-bg-primary {
     background-color: #375A82 !important;
 }
 
 
-.nt-bg-secondary{
+.nt-bg-secondary {
     background-color: #375A82 !important;
 }
 
-.nt-bg-accent{
+.nt-bg-accent {
     background-color: #95B4A2 !important;
 }
